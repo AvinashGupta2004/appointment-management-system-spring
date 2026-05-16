@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "spring.security.jwt.jwtSecretKey",
+      "type": "java.lang.String",
+      "description": "Java Json Web Token Secret Key to be used for signing Web Tokens."
+    },
+    {
+      "name": "spring.security.jwt.jwtExpirationMs",
+      "type": "java.lang.Long",
+      "description": "Java Json Web Token Expiration Time given in Milliseconds."
+    },
+    {
+      "name": "spring.security.password.encoder.strength",
+      "type": "java.lang.Short",
+      "description": "Defines the strength for Password Encoder used in Spring Security."
+    }
+  ] }
